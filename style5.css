@@ -1,0 +1,185 @@
+body {
+    font-family: sans-serif;
+    background-color:#292960;
+}
+
+nav {
+    background-color:black;
+    display:flex;
+    justify-content:space-around;
+    height:70px;
+    align-items:center;
+    color:white;
+    
+}
+.phone{
+    color:white;
+}
+nav-link{
+    color:white;
+}
+
+
+a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.name{
+    font-size:30px;
+}
+
+
+.image1{
+    height:240px;
+     width: 200px;
+     text-align: center;
+   
+}
+h2{
+    font-size:19px;
+}
+.cont-button{
+  display: flex;
+  justify-content: center;
+}
+  .button{
+   background-color:white;
+     color:Green;
+     border-radius:7px;
+     padding:15px;
+     margin:29px;
+     border:3px solid rgba(181, 216, 114, 0.893);
+
+
+    
+     
+}
+.button1{
+ background-color:dimgrey;
+     color:white;
+     border-radius:7px;
+     padding:13px;
+     margin:13px;
+    
+     
+}
+.button3{
+ background-color: mediumspringgreen;
+     color:white;
+     border-radius:7px;
+     padding:13px;
+     margin:13px;
+    
+     
+}
+.button4{
+    background-color:yellow;
+     color:white;
+     border-radius:7px;
+     padding:13px;
+     margin:13px;
+}
+     
+
+
+
+.catalog {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+  margin: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 500px;
+      height:350px;
+      padding: 5px;
+    
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .comment{
+      background: white;
+      border-radius: 10px;
+  margin: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 600px;
+      height:350px;
+      padding: 5px;
+    }
+    .comment img {
+      width: 80px;
+      border-radius: 5px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin: 4px 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+      margin-top: 8px;
+    }
+
+    .btn {
+      margin-top: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 8px;
+      width: 100%;
+      border-radius: 5px;
+      
+    }
+
+    .btn:hover {
+      background-color: green;
+    }
+
+footer{
+  background-color:#555;
+  color:white;
+  border-top:3px solid rgba(166, 255, 0, 0.575);
+}
+h1{
+  color:white;
+}
+
+
+  
+  footer img{
+  height:120px;
+  width:120px;
+  }
+
+  header img{
+    height:50px;
+    width:50px;
+  }
+
+  .button:hover{
+    background-color:#709479;
+    transition:0.5s;
+  
+  }
+
+
+  
+
+
+  
